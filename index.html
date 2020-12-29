@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>แบบฟอร์มคำร้องขอลาพักการศึกษา</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 100;
+}
+
+/* Style the header */
+.header {
+  background-color: #60ca2263;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+
+
+
+/* Middle column */
+.column.middle {
+  width: 100%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.middle {
+    width: 100%;
+  }
+}
+</style>
+<div ALIGN = "right"><b>มจท.10</b></div>
+</head>
+<body>
+<dd>
+<div class="header">
+    <div ALIGN = "CENTER"><img src="https://upload.wikimedia.org/wikipedia/th/thumb/4/43/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%82%E0%B8%88%E0%B9%89_edit.png/180px-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%82%E0%B8%88%E0%B9%89_edit.png" alt="Image" class="w-500 img-fluid mb-3"></div>
+    <h1>คำร้องขอลาพักการศึกษา</h1>
+  <p>(สำหรับนักศึกษาที่ได้ศึกษามาแล้ว ไม่น้อยกว่าหนึ่งภาคการศึกษา)</p>
+</div>
+
+
+
+  
+  <div class="column middle">
+    <div>
+        <p ALIGN = "RIGHT">เขียนที่ มหาวิทยาลัยแม่โจ้</p>
+      </div>
+      <div ALIGN = "RIGHT"> <input type="date" name="dname" id="dname">
+        
+      </div>
+      <div><p>เรื่อง ขอลาพักการศึกษา ในภาคเรียนที่
+          <select class="form-select" aria-label="Default select example">
+        <option selected>ภาคเรียนที่</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+          
+      </select>
+      <span><select class="form-select" aria-label="Default select example">
+        <option selected>ปีการศึกษา</option>
+        <option value="3">2563</option>
+        <option value="4">2564</option>
+          
+      </select>
+         
+      </span>
+    </p>
+</div>
+      <div>
+        
+            <p>เรียน คณบดีคณะ<select class="form-select" aria-label="Default select example">
+                <option selected>คณะ/วิทยาลัย</option>
+                <option value="11">วิทยาศาสตร์</option>
+                <option value="12">บริหารธุรกิจ</option>
+                <option value="13">เทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+                <option value="14">ศิลปศาสตร์</option> 
+                <option value="15">สถาปัตยกรรมศาสตร์และการออกแบบสิ่งแวดล้อม</option>
+                <option value="16">สารสนเทศและการสื่อสาร</option>
+                <option value="17">ผลิตกรรมการเกษตร</option>
+                <option value="18">วิศวกรรมและอุตสาหกรรมการเกษตร</option>
+                <option value="19">พัฒนาการท่องเที่ยว</option>
+                <option value="20">เศรษฐศาสตร์</option>
+                <option value="21">สัตวศาสตร์และเทคโนโลยี</option>
+                <option value="22">วิทยาลัยนานาชาติ</option>
+                <option value="23">วิทยาลัยบริหารศาสตร์</option>
+                <option value="24">วิทยาลัยพลังงานทดแทน</option>
+              </select>
+          </select>
+          
+          
+        
+      </div>
+      
+      <p>ข้าพเจ้า<select class="form-select" aria-label="Default select example">
+        <option selected>คำนำหน้าชื่อ</option>
+        <option value="1">นาย</option>
+        <option value="2">นาง</option>
+        <option value="3">นางสาว</option>
+        <div >
+          <div>
+            <input type="text" class="form-control" placeholder="ชื่อ" aria-label="ชื่อ">
+         
+       
+            <input type="text" class="form-control" placeholder="นามสกุล" aria-label="นามสกุล">
+          </div>
+        </div>
+        
+      </select>
+      </p>
+    </div>
+    <div>
+    <form class="form-floating">
+      <label for="floatingInputValue">รหัสนักศึกษา(10หลัก)</label><input type="code" class="form-control" id="floatingInputValue" placeholder="60xxxxxxxx" value="">
+      <label for="floatingInputValue">เบอร์โทรศัพท์(10หลัก)</label><input type="code" class="form-control" id="floatingInputValue" placeholder="08xxxxxxxx" value=""  <p>โปรดระบุ</p>
+    
+    </form>
+    </div>    
+    <div class="form-check form-check-inline"
+    ><p>หลักสูตรปริญญาตรี
+       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1">4-5 ปี</label>
+   
+    
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2">4 ปีเทียบเข้าเรียน (2ปี)<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">ภาคปกติ</label>
+     
+      
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">ภาคสมทบ</label></label>
+   
+    
+    </p>
+     
+    
+      
+    </div>
+    <div><p>สาขาวิชา
+      <select class="form-select" aria-label="Default select example">
+    <option selected>สาขาวิชา</option>
+    <option value="20">1</option>
+    <option value="21">2</option>
+    <option value="22">3</option>
+    <option value="23">4</option>  
+  </select>
+  <span><select class="form-select" aria-label="Default select example">
+    <option selected>คณะ/วิทยาลัย</option>
+    <option value="11">วิทยาศาสตร์</option>
+    <option value="12">บริหารธุรกิจ</option>
+    <option value="13">เทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+    <option value="14">ศิลปศาสตร์</option> 
+    <option value="15">สถาปัตยกรรมศาสตร์และการออกแบบสิ่งแวดล้อม</option>
+    <option value="16">สารสนเทศและการสื่อสาร</option>
+    <option value="17">ผลิตกรรมการเกษตร</option>
+    <option value="18">วิศวกรรมและอุตสาหกรรมการเกษตร</option>
+    <option value="19">พัฒนาการท่องเที่ยว</option>
+    <option value="20">เศรษฐศาสตร์</option>
+    <option value="21">สัตวศาสตร์และเทคโนโลยี</option>
+    <option value="22">วิทยาลัยนานาชาติ</option>
+    <option value="23">วิทยาลัยบริหารศาสตร์</option>
+    <option value="24">วิทยาลัยพลังงานทดแทน</option>
+  </select>
+     
+  </span>
+</p>
+</div>
+      
+        <div class="form-floating">
+          <p>มีความประสงค์จะขอลาพักการศึกษา เนื่องจาก</p>
+          <textarea class="form-control" placeholder="" id="floatingTextarea2" style="width: 50em;"></textarea>
+          <label for="floatingTextarea2"></label>
+        </div>
+        
+      <div class="contrainer">
+        <p>พร้อมนี้ได้แนบใบยินยอมขอลาพักการศึกษาจากผู้ปกครอง / ใบรับรองแพทย์ / เอกสารอื่นๆ</p>
+      </div>
+  <div><p>จึงเรียนมาเพื่อโปรดพิจารณา</p></div>
+  <div><p ALIGN = "CENTER">ขอแสดงความนับถือ</p></div>
+  <div><form ALIGN = "CENTER">
+    <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+    
+  </form></div>
+  <div><p ALIGN = "CENTER">นักศึกษา(1)</p></div>
+ 
+  
+          <div>
+      <p>(2) ความเห็นหัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ</p>
+        </div>
+        
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+         ทราบ นักศึกษาดังกล่าวสามารถพักการศึกษาได้
+        </label>
+     
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          ภาคเรียนที่ 1  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            ภาคเรียนที่ 2
+          </label>
+        </label>
+        <div><form >
+          <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+          <p>หัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ</p>
+          <input type="date" name="dname" id="dname">
+        </form></div>
+      
+      </div>
+      <div>
+        <p>(3) ความเห็นผู้อำนวยการสำนักบริหารและพัฒนาวิชาการ</p>
+          
+          
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+          ทราบ
+          </label>
+          <div><form >
+            <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+            <p>ผู้อำนวยการสำนักบริหารและพัฒนาวิชาการ</p><input type="date" name="dname" id="dname">
+          </form></div>
+       </div>
+       <div>
+          <p>(4) ความเห็นอาจารย์ที่ปรึกษา</p>
+       
+        
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+         ทราบ 
+        </label></div>
+        <div><form >
+          <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+          
+        </form><input type="date" name="dname" id="dname"></div>
+        </div>
+         
+      </div> 
+  </div>
+
+</div>
+<div>
+  <p>(5) ความเห็นประธานคณะกรรมการประจำหลักสูตร</p>
+    </div>
+    
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+     ทราบ 
+    </label>
+    <div><form >
+      <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+      
+    </form><input type="date" name="dname" id="dname"></div>
+ 
+  </div>
+<div >
+  <p>(6) ความเห็นคณบดี</p>
+
+  <div class="form-check form-check-inline">
+     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">อนุมัติ</label>
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">ไม่อนุมัติ</label>
+ </div> <div><form >
+  <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+  
+</form></div><input type="date" name="dname" id="dname">
+</div>
+<div>
+  <p>(7) งานเงินรายได้ กองคลัง ชั้น 2 อาคารอิงคศรีกสิการ ได้รับชำระเงินจำนวน</p>
+    </div>
+    
+    
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      ภาคเรียนที่ 1 1,200 บาท <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+        ภาคเรียนที่ 2 1,000 บาท
+      </label>
+    </label>
+    <div><form >
+      <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+      
+    </form><input type="date" name="dname" id="dname"></div>
+  </div>
+
+
+
+
+
+
+<div >
+<p>(8)ส่งเอกสารคำร้องขอลาพักการศึกษาตัวจริงให้กลุ่มภารกิจ </p>
+  <p>
+    ทะเบียนฯ ชั้น 2 อาคารอำนวย ยศสุข เพื่อบันทึกคำร้องขอลาพักการศึกษา และให้นักศึกษาเก็บหลักฐานใบเสร็จที่ชำระเงินไว้เพื่อตรวจสอบการบันทึกการลาพักการศึกษา
+  </p>
+</div>
+<div><p>(9) สำหรับเจ้าหน้าที่บันทึกลงฐานข้อมูล ได้บันทึกข้อมูลดังกล่าว ในวันที่ <input type="date" name="dname" id="dname"> </p>
+  
+  <div><form >
+    <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+    
+  </form><input type="date" name="dname" id="dname"></div>    
+  
+</div>
+<div>
+<h1 ALIGN = "CENTER">คำรองรับของผู้ปกครอง</h1>
+</div>
+<div>
+  <form ALIGN = "RIGHT"class="form-floating">
+    
+    <label for="floatingInputValue">เขียนที่ บ้านเลขที่</label><input type="code" class="form-control" >
+    <label for="floatingInputValue">หมู่ที่</label><input type="code" class="form-control"  >
+    <label for="floatingInputValue">ตำบล</label><input type="code" class="form-control"  >
+  </form>
+  <form ALIGN = "RIGHT"class="form-floating">
+    
+    <label for="floatingInputValue">อำเภอ</label><input type="code" class="form-control" >
+    <label for="floatingInputValue">จังหวัด</label><input type="code" class="form-control"  >
+    
+  </form>
+  <form ALIGN = "RIGHT"class="form-floating">
+    
+    <label for="floatingInputValue">รหัสไปรษณีย์</label><input type="code" class="form-control" >
+    <label for="floatingInputValue">โทรศัพท์</label><input type="code" class="form-control"  >
+    
+  </form>
+</div>
+<div ALIGN = "RIGHT"> <input type="date" name="dname" id="dname">
+  
+</div>
+<div><p>เรื่อง ขอลาพักการศึกษา ในภาคเรียนที่
+    <select class="form-select" aria-label="Default select example">
+  <option selected>ภาคเรียนที่</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+    
+</select>
+<span><select class="form-select" aria-label="Default select example">
+  <option selected>ปีการศึกษา</option>
+  <option value="3">2563</option>
+  <option value="4">2564</option>
+    
+</select>
+   
+</span>
+</p>
+</div>
+<div>
+  
+      <p>เรียน คณบดีคณะ<select class="form-select" aria-label="Default select example">
+          <option selected>คณะ/วิทยาลัย</option>
+          <option value="11">วิทยาศาสตร์</option>
+          <option value="12">บริหารธุรกิจ</option>
+          <option value="13">เทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+          <option value="14">ศิลปศาสตร์</option> 
+          <option value="15">สถาปัตยกรรมศาสตร์และการออกแบบสิ่งแวดล้อม</option>
+          <option value="16">สารสนเทศและการสื่อสาร</option>
+          <option value="17">ผลิตกรรมการเกษตร</option>
+          <option value="18">วิศวกรรมและอุตสาหกรรมการเกษตร</option>
+          <option value="19">พัฒนาการท่องเที่ยว</option>
+          <option value="20">เศรษฐศาสตร์</option>
+          <option value="21">สัตวศาสตร์และเทคโนโลยี</option>
+          <option value="22">วิทยาลัยนานาชาติ</option>
+          <option value="23">วิทยาลัยบริหารศาสตร์</option>
+          <option value="24">วิทยาลัยพลังงานทดแทน</option>
+        </select>
+    </select>
+    
+    
+  
+</div>
+
+<p>ข้าพเจ้า<select class="form-select" aria-label="Default select example">
+  <option selected>คำนำหน้าชื่อ</option>
+  <option value="1">นาย</option>
+  <option value="2">นาง</option>
+  <option value="3">นางสาว</option>
+  <div >
+    <div>
+      <input type="text" class="form-control" placeholder="ชื่อ" aria-label="ชื่อ">
+   
+ 
+      <input type="text" class="form-control" placeholder="นามสกุล" aria-label="นามสกุล">
+    </div>
+  </div>
+  
+</select>
+</p>
+</div>
+<div>
+<form class="form-floating">
+<label for="floatingInputValue">รหัสนักศึกษา(10หลัก)</label><input type="code" class="form-control" id="floatingInputValue" placeholder="60xxxxxxxx" value="">
+<label for="floatingInputValue">เบอร์โทรศัพท์(10หลัก)</label><input type="code" class="form-control" id="floatingInputValue" placeholder="08xxxxxxxx" value=""  <p>โปรดระบุ</p>
+
+</form>
+</div>    
+<div class="form-check form-check-inline"
+><p>หลักสูตรปริญญาตรี
+ <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">4-5 ปี</label>
+
+
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">4 ปีเทียบเข้าเรียน (2ปี)<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">ภาคปกติ</label>
+
+
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">ภาคสมทบ</label></label>
+
+
+</p>
+
+
+
+</div>
+
+<div><p>สาขาวิชา
+  <select class="form-select" aria-label="Default select example">
+<option selected>สาขาวิชา</option>
+<option value="20">1</option>
+<option value="21">2</option>
+<option value="22">3</option>
+<option value="23">4</option>  
+</select>
+<span><select class="form-select" aria-label="Default select example">
+<option selected>คณะ/วิทยาลัย</option>
+<option value="11">วิทยาศาสตร์</option>
+<option value="12">บริหารธุรกิจ</option>
+<option value="13">เทคโนโลยีการประมงและทรัพยากรทางน้ำ</option>
+<option value="14">ศิลปศาสตร์</option> 
+<option value="15">สถาปัตยกรรมศาสตร์และการออกแบบสิ่งแวดล้อม</option>
+<option value="16">สารสนเทศและการสื่อสาร</option>
+<option value="17">ผลิตกรรมการเกษตร</option>
+<option value="18">วิศวกรรมและอุตสาหกรรมการเกษตร</option>
+<option value="19">พัฒนาการท่องเที่ยว</option>
+<option value="20">เศรษฐศาสตร์</option>
+<option value="21">สัตวศาสตร์และเทคโนโลยี</option>
+<option value="22">วิทยาลัยนานาชาติ</option>
+<option value="23">วิทยาลัยบริหารศาสตร์</option>
+<option value="24">วิทยาลัยพลังงานทดแทน</option>
+</select>
+ 
+</span>
+</p>
+</div>
+<div><p>ซึ่งเป็นนักศึกษาดังกล่าวข้างต้น ได้รับทราบการขอลาพักการศึกษาแล้ว และยินดีให้ปฏิบัติตามความประสงค์ของนักศึกษา </p></div>
+<div><p>จึงเรียนมาเพื่อโปรดทราบ</p></div>
+
+<div><p ALIGN = "CENTER">ขอแสดงความนับถือ</p></div>
+<div><form ALIGN = "CENTER">
+  <input type="text" class="form-control is-invalid" id="floatingInputInvalid" placeholder="ชื่อ-นามสกุล" value="">
+  
+</form></div>
+<div><p ALIGN = "CENTER">ผู้ปกครองนักศึกษา</p></div>
+<div><p ALIGN = "CENTER">นักศึกษา</p></div>
+
+
+<div><u>ขั้นตอนการเสนอคำร้องลาพักการศึกษา</u></div>
+<div><p>1. นักศึกษากรอกคำร้องขอลาพักการศึกษา</p>
+<p>2. เสนอคำร้องต่อหัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ
+  <p>3. เสนอคำรองต่อผู้อำนวยการสำนักบริหารและพัฒนาวิชาการ<b>(ชั้น 3 อาคารอำนวย ยศสุข)</b></p>
+</p>
+<p>4. เสนอคำร้องต่ออาจารย์ที่ปรึกษา <b>(คณะที่นักศึกษาสังกัด)</b></p>
+<p>5. เสนอคำร้องต่อประธานคณะกรรมการประจำหลักสูตร<b>(คณะที่นักศึกษาสังกัด)</b></p>
+<p>6. เสนอคำร้องต่อคณบดี เพื่ออนุมัติ<b>(คณะที่นักศึกษาสังกัด)</b></p>
+<p>7. นำคำร้องไปชำระเงิน<b>(กองคลัง ชั้น 2 อาคารอิงคศรีกสิการ)</b></p>
+<p>8. นำคำร้องขอลาพักการศึกษา ที่ชำระเงินแล้ว<b>(ยื่นต่อกลุ่มภารกิจทะเบียนเรียนฯ)</b>เพื่อบันทึกฐานข้อมูลนักศึกษาต่อไป</p>
+<p>9. เจ้าหน้าที่ทะเบียนฯ บันทึกลงฐานข้อมูล นักศึกษาสามารถตรวจสอบได้ในวันต่อไป</p>
+
+
+
+
+
+
+
+
+
+
+</div>
+  
+  </dd>
+  
+</body>
+</html>
